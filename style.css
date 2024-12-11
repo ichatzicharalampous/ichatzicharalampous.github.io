@@ -1,0 +1,39 @@
+.slider{
+    position:relative;
+    top: -260px;
+    left: 300px;
+    width: 20%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider img{
+    width: 80%;
+    display: none;
+}
+img.displaySlide{
+  display:block;
+}
+h1{
+  position: relative;
+  left:200px;
+  color: whitesmoke;
+  font-size: 3em;
+}
+h2{
+  color: white;
+}
+h3{
+  color:white;
+  font-size: 150%;
+}
+ul{
+  color:white;
+}
+li{
+  color: white;
+}
+.vlaves{
+  position:relative;
+  top: -150px;
+  font-size: 1.3em;
+}
