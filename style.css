@@ -1,7 +1,7 @@
 .slider{
   position:relative;
   top: -160px;
-  left: 700px;
+  left: 630px;
   width: 50%;
   margin: auto;
   overflow: hidden;
@@ -34,8 +34,9 @@ color: white;
 }
 .vlaves{
 position:relative;
-/*top: -180px;*/
+top: -130px;;
 font-size: 1.3em;
+left:20px
 }
 .banner{
 position: relative;
@@ -55,7 +56,7 @@ left: 300px;
 
 .vlaves iframe{
     width: 650px;
-    height: 450px;
+    height: 480px;
     position: relative;
     left:100px;
 }
