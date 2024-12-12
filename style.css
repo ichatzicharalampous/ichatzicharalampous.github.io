@@ -60,7 +60,7 @@ left: 300px;
     position: relative;
     left:100px;
 }
-@media only screen and (max-width:400px){
+@media only screen and (max-width:450px){
   .slider{
     position:relative;
     top:auto;
@@ -99,7 +99,8 @@ left: 300px;
   }
   .vlaves{
   position:relative;
-  /*top: -180px;*/
+  top:auto;
+  left: auto;
   font-size: 1.3em;
   }
   .vlaves iframe{
@@ -112,10 +113,10 @@ left: 300px;
   position: relative;
   color:white;
   font-size: 1.1em;
-  left: auto;
+  left: 0px;
   }
   .banner img{
-    left: 100px;
+    left: 80px;
     width: 50%;
   }
 }
