@@ -1,39 +1,103 @@
 .slider{
-    position:relative;
-    top: -260px;
-    left: 300px;
-    width: 20%;
-    margin: auto;
-    overflow: hidden;
+  position:relative;
+  top: -160px;
+  left: 700px;
+  width: 50%;
+  margin: auto;
+  overflow: hidden;
 }
 .slider img{
-    width: 80%;
-    display: none;
+  width: 30%;
+  display: none;
 }
 img.displaySlide{
-  display:block;
+display:block;
 }
 h1{
-  position: relative;
-  left:200px;
-  color: whitesmoke;
-  font-size: 3em;
+position: relative;
+left:200px;
+color: whitesmoke;
+font-size: 3em;
 }
 h2{
-  color: white;
+color: white;
 }
 h3{
-  color:white;
-  font-size: 150%;
+color:white;
+font-size: 150%;
 }
 ul{
-  color:white;
+color:white;
 }
 li{
-  color: white;
+color: white;
 }
 .vlaves{
+position:relative;
+/*top: -180px;*/
+font-size: 1.3em;
+}
+.banner{
+position: relative;
+color:white;
+font-size: 1.1em;
+}
+.vlaves img{
+position: relative;
+width: 20%;
+left: 300px;
+}
+
+@media only screen and (max-width:400px){
+  .slider{
+    position:relative;
+    top:auto;
+    left: auto;
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+  }
+  .slider img{
+    width: 80%;
+    display: none;
+  }
+  img.displaySlide{
+  display:block;
+  }
+  h1{
+  position: relative;
+  color: white;
+  top:15px;
+  left:40px;
+  font-size: 1.5em;
+  }
+  h2{
+  color: white;
+  font-size:1.5em;
+  }
+  h3{
+  color:white;
+  font-size: 150%;
+  }
+  ul{
+  color:white;
+  }
+  li{
+  color: white;
+  }
+  .vlaves{
   position:relative;
-  top: -150px;
+  /*top: -180px;*/
   font-size: 1.3em;
+  }
+  .banner{
+  position: relative;
+  color:white;
+  font-size: 1.1em;
+  left: auto;
+  }
+  .banner img{
+    left: 100px;
+    width: 50%;
+  }
 }
