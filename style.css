@@ -1,0 +1,121 @@
+.slider{
+  position:relative;
+  top: -160px;
+  left: 630px;
+  width: 50%;
+  margin: auto;
+  overflow: hidden;
+}
+.slider img{
+  width: 30%;
+  display: none;
+}
+img.displaySlide{
+display:block;
+}
+h1{
+position: relative;
+left:200px;
+color: whitesmoke;
+font-size: 3em;
+}
+h2{
+color: white;
+}
+h3{
+color:white;
+font-size: 150%;
+}
+ul{
+color:white;
+}
+li{
+color: white;
+}
+.vlaves{
+position:relative;
+top: -160px;;
+font-size: 1.3em;
+left:20px
+}
+.banner{
+position: relative;
+left:30px;
+color:white;
+font-size: 1.1em;
+}
+.vlaves img{
+position: relative;
+width: 20%;
+left: 300px;
+}
+.vlaves h3{
+  position:relative;
+  left:30px;
+}
+
+.vlaves iframe{
+    width: 650px;
+    height: 480px;
+    position: relative;
+    left:100px;
+}
+@media only screen and (max-width:400px){
+  .slider{
+    position:relative;
+    top:auto;
+    left: auto;
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+  }
+  .slider img{
+    width: 80%;
+    display: none;
+  }
+  img.displaySlide{
+  display:block;
+  }
+  h1{
+  position: relative;
+  color: white;
+  top:15px;
+  left:40px;
+  font-size: 1.5em;
+  }
+  h2{
+  color: white;
+  font-size:1.5em;
+  }
+  h3{
+  color:white;
+  font-size: 150%;
+  }
+  ul{
+  color:white;
+  }
+  li{
+  color: white;
+  }
+  .vlaves{
+  position:relative;
+  /*top: -180px;*/
+  font-size: 1.3em;
+  }
+  .vlaves iframe{
+      width: 350px;
+      height: 250px;
+      position: relative;
+      left:10px;
+  }
+  .banner{
+  position: relative;
+  color:white;
+  font-size: 1.1em;
+  left: auto;
+  }
+  .banner img{
+    left: 100px;
+    width: 50%;
+  }
+}
