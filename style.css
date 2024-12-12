@@ -39,6 +39,7 @@ font-size: 1.3em;
 }
 .banner{
 position: relative;
+left:30px;
 color:white;
 font-size: 1.1em;
 }
@@ -47,7 +48,17 @@ position: relative;
 width: 20%;
 left: 300px;
 }
+.vlaves h3{
+  position:relative;
+  left:30px;
+}
 
+.vlaves iframe{
+    width: 650px;
+    height: 450px;
+    position: relative;
+    left:100px;
+}
 @media only screen and (max-width:400px){
   .slider{
     position:relative;
@@ -89,6 +100,12 @@ left: 300px;
   position:relative;
   /*top: -180px;*/
   font-size: 1.3em;
+  }
+  .vlaves iframe{
+      width: 350px;
+      height: 250px;
+      position: relative;
+      left:10px;
   }
   .banner{
   position: relative;
